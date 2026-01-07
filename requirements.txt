@@ -15,7 +15,9 @@ markdown-it-py==4.0.0
 MarkupSafe==3.0.3
 mdurl==0.1.2
 narwhals==2.15.0
-numpy==2.4.0
+# Streamlit Cloud(Python 3.11)では langchain-community が numpy<2 を要求するため、
+# numpy==2.x だと依存解決できません。
+numpy==1.26.4
 packaging==24.2
 pandas==2.3.3
 pillow==11.3.0
