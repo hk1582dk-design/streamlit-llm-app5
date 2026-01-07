@@ -32,7 +32,7 @@ rich==13.9.4
 rpds-py==0.30.0
 six==1.17.0
 smmap==5.0.2
-streamlit==1.41.1
+streamlit==1.42.0
 tenacity==9.1.2
 toml==0.10.2
 tornado==6.5.4
@@ -45,3 +45,6 @@ langchain-openai==0.3.0
 langchain-core==0.3.31
 langchain-community==0.3.15
 openai==1.59.8
+
+# NOTE: このアプリは langgraph を使用しません。Streamlit Cloud で依存関係が混入しないよう、
+# langgraph / langgraph-prebuilt は requirements に追加しないでください。
